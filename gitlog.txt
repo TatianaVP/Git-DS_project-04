@@ -1,0 +1,37 @@
+commit 14aea69fec857657959396d0fe23878abd4788aa
+Author: TatianaVP <t-lily@list.ru>
+Date:   Thu Sep 15 14:27:10 2022 +0300
+
+    Revert "Убрали из файла 6 последних правил"
+    
+    This reverts commit fa88c8b8d61d3a7070778b95f9382515a738e9e7.
+
+commit fa88c8b8d61d3a7070778b95f9382515a738e9e7
+Author: TatianaVP <t-lily@list.ru>
+Date:   Thu Sep 15 14:25:23 2022 +0300
+
+    Убрали из файла 6 последних правил
+
+commit c426cf0fd1a3dbac5c0160f425c49b8b87451fba
+Author: TatianaVP <t-lily@list.ru>
+Date:   Thu Sep 15 02:11:18 2022 +0300
+
+    создан новый файл .DS_Store
+
+commit 542b66338caa1badb0c96e22f8aa096837320fda
+Author: TatianaVP <t-lily@list.ru>
+Date:   Thu Sep 15 01:37:04 2022 +0300
+
+    Добавлено 7 правило жизни, проставлен тег v1
+
+commit 9e158aba955e177b9edce4ef9b2884db4edb597e
+Author: TatianaVP <t-lily@list.ru>
+Date:   Thu Sep 15 01:21:28 2022 +0300
+
+    Добавлено 6 правило жизни
+
+commit 9cc27f8a13156e061ca9a2cf29453525d7a6b39d
+Author: TatianaVP <t-lily@list.ru>
+Date:   Wed Sep 14 23:57:40 2022 +0300
+
+    Создан файл с 5 правилами

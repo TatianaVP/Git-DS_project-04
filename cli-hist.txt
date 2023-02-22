@@ -1,0 +1,105 @@
+   16  git clone https://github.com/TatianaVP/s21_winfreds.git
+   17  git config --global user.email t-lily@list.ru
+   18  git --version
+   19  git config --global user.name TatianaVP
+   20  git mkdir project04
+   21  cd C:\Users\Татьяна\Desktop\ML\Школа 21\DS_project04-0
+   22  cd C://Users/Татьяна/Desktop/ML/Школа 21/DS_project04-0
+   23  pwd
+   24  cd ~Desktop/ML/School21/DS_project04-0
+   25  cd ~/Desktop/ML/School21/DS_project04-0
+   26  pwd
+   27  git clone https://github.com/TatianaVP/s21_winfreds.git
+   28  cd
+   29  cd s21_winfreds
+   30  touch README.md
+   31  ls
+   32  echo "1 правило жизни" >> README.md
+   33  echo "2 правило жизни" >> README.md
+   34  echo "3 правило жизни" >> README.md
+   35  cat README.md
+   36  echo "4 правило жизни" >> README.md
+   37  echo "5 правило жизни" >> README.md
+   38  git add README.md
+   39  git status README.md
+   40  git commit -m "Создан файл с 5 правилами"
+   41  git status
+   42  git branch --unset-upstream
+   43  git status README.md
+   44  add README.md
+   45  git commit -m "Создан файл с 5 правилами"
+   46  cat README.md
+   47  git config --global user.name "TatianaVP"
+   48  git config --global user.email "t-lily@list.ru"
+   49  add README.md
+   50  git commit -m "Создан файл с 5 правилами"
+   51  git push
+   52  pwd
+   53  ls
+   54  git log
+   55  ls -al ~/.ssh
+   56  ssh-keygen -t ed25519 -C "t-lily@list.ru"
+   57  eval "$(ssh-agent -s)"
+   58  ssh-add ~/.ssh/id_ed25519
+   59  clip < ~/.ssh/id_ed25519.pub
+   60  git branch
+   61  git push origin main
+   62  echo "6 правило жизни" >> README.md
+   63  git status
+   64  git add README.md
+   65  git status
+   66  git commit -m "Добавлено 6 правило жизни"
+   67  git status
+   68  git push
+   69  git push origin main
+   70  git log
+   71  git reflog
+   72  git tag v1
+   73  echo "7 правило жизни" >> README.md
+   74  git add README.md
+   75  git commit -m "Добавлено 7 правило жизни, проставлен тег v1"
+   76  git push origin main
+   77  git reset --hard v1
+   78  cat README.md
+   79  git reflog
+   80  git reset --hard 542b663
+   81  cat README.md
+   82  git tag v2
+   83  git reflog
+   84  git push origin v1
+   85  git push origin v2
+   86  touch .gitignore
+   87  echo ".DS_Store" >> .gitignore
+   88  cat .gitignore
+   89  ls -al
+   90  touch .DS_Store
+   91  ls -al
+   92  git add .
+   93  git status
+   94  git commit -m "создан новый файл .DS_Store"
+   95  git push
+   96  git push origin main
+   97  vi README.md
+   98  ls -al
+   99  cat README.md
+  100  vi README.md
+  101  cat README.md
+  102  git checkout README.md
+  103  cat README.md
+  104  vi README.md
+  105  cat README.md
+  106  git add README.md
+  107  git status
+  108  git reset HEAD README.md
+  109  cat README.md
+  110  git checkout README.md
+  111  cat README.md
+  112  vi README.md
+  113  cat README.md
+  114  git add README.md
+  115  git commit -m "Убрали из файла 6 последних правил"
+  116  git revert HEAD
+  117  cat README.md
+  118  git log
+  119  git log >> gitlog.txt
+  120  history >> cli-hist.txt
